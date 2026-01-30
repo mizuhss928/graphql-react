@@ -7,3 +7,7 @@ https://qiita.com/Sicut_study/items/13c9f51c1f9683225e2e
 ・prismaはバージョン6を利用すること。
 
 →バージョン7だと設定ファイルやPrismaClientのコンストラクタの挙動が変わるため
+
+・apollo/clientのバージョンを4以降で利用する場合ApolloProviderやuseQueryのパッケージが変わる
+
+→apollo/clientのバージョンを3で利用しようとしたがNodeのバージョンエラーか何かでインストールできなかった
